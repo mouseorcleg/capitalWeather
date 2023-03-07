@@ -16,6 +16,7 @@ struct SingleCityView: View {
                 Spacer()
                 Text("+24")
                     .padding(.trailing)
+                    .foregroundColor(Color.theme.accent)
             }
             .font(.title)
             HStack(alignment: .center, spacing: 20) {
@@ -23,19 +24,19 @@ struct SingleCityView: View {
                 VStack {
                     Image(systemName: "sun.haze")
                         .padding()
+                        .foregroundColor(Color.theme.accent)
                 }
                 .font(.largeTitle)
                 VStack(alignment: .leading) {
                     Text("It's rather sunny today")
                     Text("Wind: 26 m/s")
-                    Text("Humisity: 76%")
+                    Text("Humidity: 76%")
                 }
                 .font(.title3)
-                Spacer()
+                
                 Spacer()
             }
         } // main VStack
-        .foregroundColor(Color.theme.background)
     }
 }
 

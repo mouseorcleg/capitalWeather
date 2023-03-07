@@ -11,7 +11,7 @@ import SwiftUI
 struct capitalWeatherApp: App {
     var body: some Scene {
         WindowGroup {
-            NavigationStack {
+            NavigationView {
                 ListView()
             }
         }

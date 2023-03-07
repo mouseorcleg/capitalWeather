@@ -15,7 +15,7 @@ struct ListView: View {
             SingleCityView()
         }
         .listStyle(.inset)
-        .listRowSeparator(.hidden)
+        .navigationTitle("Weather today")
     }
 }
 
