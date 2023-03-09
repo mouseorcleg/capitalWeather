@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ListView: View {
+    
+    @StateObject var vm = ListViewModel()
+    
     var body: some View {
-        List {
-            SingleCityView()
-            SingleCityView()
-            SingleCityView()
-        }
-        .listStyle(.inset)
-        .navigationTitle("Weather today")
+        
+        VStack {
+            SearchBar(searchText: $vm.searchText)
+            
+            List {
+                SingleCityView()
+                SingleCityView()
+                SingleCityView()
+            }
+            .listStyle(.inset)
+            .navigationTitle("Weather today")
+        } //VStack
     }
 }
 
