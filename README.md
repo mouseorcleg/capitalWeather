@@ -4,7 +4,7 @@ A weather app in the making!
 
 Here's what's on the to-do list:
 
-- [ ] SwiftUI with MVVM architecture,
+- [x] SwiftUI with MVVM architecture,
 - [ ] Separate Networking layer with JSON decoder,
 - [ ] Repository with protocol for persistence using an Environment Object,
 - [ ] User search for specific city,
