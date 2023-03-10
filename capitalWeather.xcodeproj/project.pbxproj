@@ -15,6 +15,7 @@
 		CB90B2FD29B242AE00D03E05 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB90B2FC29B242AE00D03E05 /* ListView.swift */; };
 		CB90B32A29B7B86500D03E05 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB90B32929B7B86500D03E05 /* SearchBar.swift */; };
 		CB90B32C29B9E31100D03E05 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB90B32B29B9E31100D03E05 /* ListViewModel.swift */; };
+		CB90B32F29BB413900D03E05 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB90B32E29BB413900D03E05 /* WeatherDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		CB90B2FC29B242AE00D03E05 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		CB90B32929B7B86500D03E05 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		CB90B32B29B9E31100D03E05 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		CB90B32E29BB413900D03E05 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				CB1E0CA9298D782300F869E3 /* capitalWeatherApp.swift */,
-				CB90B2F829B21CEA00D03E05 /* Models */,
 				CB90B2F929B21D0600D03E05 /* Views */,
-				CB1E0CAD298D782B00F869E3 /* Assets.xcassets */,
 				CB90B32D29B9E31900D03E05 /* ViewModels */,
+				CB90B2F829B21CEA00D03E05 /* Models */,
+				CB1E0CAD298D782B00F869E3 /* Assets.xcassets */,
 				CB1E0CAF298D782B00F869E3 /* Preview Content */,
 			);
 			path = capitalWeather;
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				CB369D98298D860900CA41A5 /* Color.swift */,
+				CB90B32E29BB413900D03E05 /* WeatherDataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			files = (
 				CB90B2FB29B21D3D00D03E05 /* SingleCityView.swift in Sources */,
 				CB90B2FD29B242AE00D03E05 /* ListView.swift in Sources */,
+				CB90B32F29BB413900D03E05 /* WeatherDataModel.swift in Sources */,
 				CB90B32C29B9E31100D03E05 /* ListViewModel.swift in Sources */,
 				CB90B32A29B7B86500D03E05 /* SearchBar.swift in Sources */,
 				CB1E0CAA298D782300F869E3 /* capitalWeatherApp.swift in Sources */,
